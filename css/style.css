@@ -268,4 +268,20 @@ footer {
   cursor: pointer;
   color: var(--note-link-color);
   font-style: normal;
+  margin-right: 10px;
+}
+.trump-icon {
+  background-color: #f5f4fa;
+  margin-bottom: 30px;
+  border-radius: 4px;
+}
+.social-media-list {
+  list-style: none;
+}
+.social-media {
+  display: flex;
+  justify-content: center;
+}
+.social-media > .social-media-list:not(:last-child) {
+  margin-right: 10px;
 }
