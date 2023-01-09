@@ -119,6 +119,7 @@ img {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-image: url(main-page-bg.jpg);
 }
 .h1 {
   font-size: 44px;
@@ -257,4 +258,14 @@ footer {
   border-right: 1px solid #eeeeee;
   border-bottom: 1px solid #eeeeee;
   border-left: 1px solid #eeeeee;
+}
+.link-icon:focus,
+.link-icon:hover {
+  color: var(--link-button-color);
+  text-decoration: none;
+}
+.link-icon {
+  cursor: pointer;
+  color: var(--note-link-color);
+  font-style: normal;
 }
