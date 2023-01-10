@@ -111,6 +111,7 @@ img {
 }
 .bg-entry {
   background-image: url(https://s3-alpha-sig.figma.com/img/1131/4362/dd953143a8a4d9f86ec8d71afc0e8103?Expires=1674432000&Signature=VeDTIJzFre0SHZ7-NOQ55r99hiiKdTLc7jBhQ~rHfXY-KqX7mi~SRxUILTPmUrY6-5~eokQOqlm1Rl2GkwEjBtC0XmRxpAh8dKVpIh-gGsTjHwuhqUY1YAHIujRHwTDK8fIs~GQsskzXy7yiL7Pqsz~1YjImT-7qxfVVd~gLrySN~VjocsiE9aDv5gJYng8m-JDWfqO2NP5ZKLIfQAdhRCW1-XeFZMXdoyCxnJjk5UJMvbozv~bqNVbuCF1nRlD71aZB5wwfx0gLlxMU17we1uNZ-6kOxBrerNNpuLzXxGfcdHczlpI0fJddQ0K5naWst4kMUHQcV~1CWqQvGb~aUg__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4);
+  max-width: 1600px;
   background-color: var(--background-color-menu);
   color: var(--text-color-white);
   font-weight: 900;
@@ -288,12 +289,23 @@ footer {
   background-size: 270px 120px;
 }
 .social-media-list {
-  list-style: none;
   fill: #afb1b8;
+  border-radius: 50%;
+  padding: 10px;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.social-media-list:hover,
+.social-media-list:focus {
+  background-color: #2196f3;
+  fill: var(--text-color-white);
 }
 .social-media {
   display: flex;
   justify-content: center;
+  margin-bottom: 30px;
 }
 .social-media > .social-media-list:not(:last-child) {
   margin-right: 10px;
@@ -358,8 +370,12 @@ footer {
   fill: var(--text-color-white);
   margin-right: 10px;
   text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .footer-social-media {
   margin-top: 20px;
   margin-left: 70px;
+  display: flex;
 }
